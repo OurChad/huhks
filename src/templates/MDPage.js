@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, navigate } from "gatsby";
 import styled from 'styled-components';
 import PageLayout from "../components/PageLayout";
-import SEO from "../components/seo";
+import SEO from "../components/SEO";
 import Button from "../components/Button";
 
 const NavigationContainer = styled.div`
