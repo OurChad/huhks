@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, navigate } from "gatsby";
 import styled from 'styled-components';
-import Layout from "../components/layout";
+import PageLayout from "../components/PageLayout";
 import SEO from "../components/seo";
 import Button from "../components/Button";
 
@@ -29,7 +29,7 @@ export default ({ data }) => {
   };
 
   return (
-    <Layout>
+    <PageLayout>
       <SEO title={title} />
       <div>
         <h1>{title}</h1>
@@ -60,7 +60,7 @@ Next:
           }
         </div>
       </NavigationContainer>
-    </Layout>
+    </PageLayout>
   );
 };
 
