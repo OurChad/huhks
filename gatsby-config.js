@@ -91,13 +91,13 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           `gatsby-remark-prismjs`,
           `gatsby-remark-code-buttons`,
+          `gatsby-remark-images`,
         ]
       }
     },
