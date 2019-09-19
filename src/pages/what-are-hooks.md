@@ -8,12 +8,12 @@ nextLabel: "Custom Hooks a.k.a. The Good 💩"
 
 
 ## Why would I want to use Hooks?
-Hooks have some very useful benefits and are recommend as the primary way to build components with React by the React Development Team.
+Hooks have some very useful benefits and are recommended as the primary way to build components with React by the React Development Team.
 
 Some of the main reasons to use Hooks are:
-- Hooks let us organize the logic inside a component into reusable isolated units
-- Hooks enable reuse of stateful logic between components through Custom Hooks
-- Hooks make components truly declarative even if they contain state and side effects
+- Hooks let us **organize the logic inside a component into reusable isolated units**
+- Hooks enable **reuse of stateful logic between components** through Custom Hooks
+- Hooks mean **components are truly declarative even if they contain state and side effects**
 
 React is designed with the principle of composition over inhertience in mind. The above points speak strongly to that principle.
 
@@ -133,7 +133,7 @@ export default function Useful() {
 
 ```
 
-So what's the benefits here? It's a simple example, but what we now have is **all of logic associated with the user scroll functionality and the lifecycle of the Component contained together** and not spead across different functions of the component.
+So what's the benefits here? It's a simple example, but what we now have is **all of the logic associated with the user scroll functionality and the lifecycle of the Component contained together** and not spead across different functions of the component.
 
 <br />
 Now that the brain juices are flowing and we're starting to see how Hooks can be useful, lets move on and take a look at some practical examples with Custom Hooks.
